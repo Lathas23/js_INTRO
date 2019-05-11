@@ -33,5 +33,21 @@ console.log("second class")
 }
 var num =prompt("enter the number");
 marks(num);
+function l()
+{
+    console.log("called l function");
+
+}
+function r()
+{
+    l();
+    console.log("called r function");
+}
+function p()
+{
+    r();
+    console.log("called p function");
+}
+p();
 
     
