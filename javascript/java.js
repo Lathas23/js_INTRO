@@ -49,5 +49,6 @@ function p()
     console.log("called p function");
 }
 p();
+var m="10";
 
     
